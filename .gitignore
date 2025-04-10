@@ -1,0 +1,78 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+*.wheel
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+venv/
+.env/
+.venv/
+ENV/
+env/
+env.bak/
+
+# Testing and coverage
+.coverage
+.tox/
+.nox/
+.cache/
+.pytest_cache/
+htmlcov/
+coverage.xml
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# MyPy / Pyright / Pylint / Ruff / other lint/IDE tools
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+ruff_cache/
+pylint.log
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs and local state
+*.log
+*.sqlite
+*.db
+*.bak
+*.tmp
+
+# dotenv environment variables
+*.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# PyInstaller
+*.spec
+
+# Pydantic / schema / auto-generated files
+schema.json
+*.schema.json
+
+# Custom ignores
+logs/
+output/
+tmp/
